@@ -11,7 +11,7 @@ export enum OpenAIModelID {
   GPT_3_5_16K_AZ = 'gpt-35-turbo-16k',
   GPT_4 = 'gpt-4',
   GPT_4_32K = 'gpt-4-32k',
-  GPT_4_128K = 'gpt-4-1106-preview',
+  GPT_4_128K = 'gpt-4-0125-preview',
 }
 // in case the `DEFAULT_MODEL` environment variable is not set or set to an unsupported model
 export const fallbackModelID = OpenAIModelID.GPT_3_5;
