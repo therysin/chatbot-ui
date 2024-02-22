@@ -10,7 +10,6 @@ export enum OpenAIModelID {
   GPT_3_5_16K = 'gpt-3.5-turbo-16k',
   GPT_3_5_AZ = 'gpt-35-turbo',
   GPT_3_5_16K_AZ = 'gpt-35-turbo-16k',
-  GPT_4 = 'gpt-4',
   GPT_4_32K = 'gpt-4-32k',
   GPT_4_128K = 'gpt-4-1106-preview',
 }
